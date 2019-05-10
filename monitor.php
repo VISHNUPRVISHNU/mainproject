@@ -3,7 +3,7 @@ error_reporting(0);
 $db_name = "project2";
 $mysql_user = "root";
 $mysql_pass = "";
-$server_name = "localhost:3307";
+$server_name = "localhost:3306";
 
 $con = mysqli_connect($server_name, $mysql_user, $mysql_pass, $db_name);
 
